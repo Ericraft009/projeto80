@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <script type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Aniversário do Dudu</title>
+    </head>
+    <body>
+        <center>
+            <div>
+                <h2>Lista de Convidados</h2>
+            <br>
+            <span>
+                <input type="text" placeholder="Insira o nome do convidado" id="anuncio-convidado">
+                <button onclick="submit()" id="submit-btn">Enviar</button>
+            </span>
+            <hr>
+                <div id="resposta-envie">
+                    
+                </div>
+            <hr>
+            </div>
+            <h2>Lista de Convidados</h2>
+            <button onclick="show()" id="show-btn">Mostrar</button>
+                <div id="resposta-mostre">
+                    
+                </div>
+            <hr>
+            <button onclick="organise()" id="organise-btn" hidden="true">Lista organisada</button>
+                <div id="resposta-organise">
+                    
+                </div>
+            <hr>
+            <span>
+                <input type="text" placeholder="Pesquise o nome do convidado" id="pesquisa-convidado">
+                <button onclick="submit()" id="s1">Pesquisar</button>
+            </span>
+            <div id="resposta-pesquisa">
+                
+            </div>
+        </center>
+    </body>
+</html>
